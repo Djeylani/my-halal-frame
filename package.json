@@ -1,0 +1,11 @@
+{
+  "name": "halal-farcaster-frame",
+  "version": "1.0.0",
+  "description": "A Farcaster frame for the Halal Mini-App Infographic.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
