@@ -1,9 +1,13 @@
 {
   "version": 2,
   "routes": [
+    { "src": "/", "dest": "/api/page.js" },
     { "src": "/api", "dest": "/api/index.js" },
+    { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/public/$1" }
   ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": false
 }

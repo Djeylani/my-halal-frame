@@ -1,11 +1,12 @@
 {
-  "name": "halal-farcaster-frame",
+  "name": "my-halal-frame",
   "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build step needed'"
+  },
   "description": "A Farcaster frame for the Halal Mini-App Infographic.",
   "main": "api/index.js",
-  "scripts": {
-    "start": "node api/index.js"
-  },
   "author": "",
   "license": "ISC",
   "type": "module"
