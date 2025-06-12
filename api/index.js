@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
     const frameData = {
       1: {
-        image: `${baseUrl}/images/1.png`,
+        image: `https://imgur.com/a/65BDz5Z`,
         buttons: [{ label: 'Start Guide ➡️', action: 'post' }],
         page: 1
       },
